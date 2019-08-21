@@ -143,7 +143,7 @@ void sort_lowest()
 	{
 		for ( j = i + 1; j < 3; j++)
 		{
-			if (s1.maths[j + 1] <= s1.maths[j])
+			if (s1.maths[i] >= s1.maths[j])
 			{
 				temp = s1.maths[i];
 				temp1 = s1.name[i];
@@ -160,7 +160,7 @@ void sort_lowest()
 	{
 		for ( j = i + 1; j < 3; j++)
 		{
-			if (s1.eng[j + 1] <= s1.eng[j])
+			if (s1.eng[i] >= s1.eng[j])
 			{
 				temp = s1.maths[i];
 				temp1 = s1.name[i];
@@ -177,7 +177,7 @@ void sort_lowest()
 	{
 		for ( j = i + 1; j <3; j++)
 		{
-			if (s1.sc[j + 1] <= s1.sc[j])
+			if (s1.sc[i] >= s1.sc[j])
 			{
 				temp = s1.sc[i];
 				temp1 = s1.name[i];
